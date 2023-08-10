@@ -12,7 +12,6 @@ import ExpenseList from './components/ExpenseList';
 import AllocationForm from './components/AllocationForm';
 import Remaining from './components/Remaining';
 
-import { AppProvider } from './context/AppContext';
 const App = () => {
     return (
         <AppProvider>
@@ -47,6 +46,7 @@ const App = () => {
                        </div>
                 </div>
             </div>
+        </div>                  
         </AppProvider>
     );
 };
